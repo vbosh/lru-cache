@@ -50,6 +50,8 @@ export class LRUCache {
 
             return node.value
         }
+
+        return null
     }
 
     set(key, value) {
